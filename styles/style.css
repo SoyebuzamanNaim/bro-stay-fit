@@ -4,8 +4,55 @@
     margin: 0%;
     
 }
+/* common codes */
+.primary-text{color: rgb(230, 83, 60);}
+.secondary-text{color: white;}
+.primary-btn-bg{ background-color: rgb(230, 83, 60);}
+.primary-btn{
+    color: white;
+    padding: 1rem 2.5rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 2.5rem;
+    border: none;
+}
+.section-padding{padding: 0px 11.5rem;}
+.flex-display{display: flex;}
+a{text-decoration: none;}
+.primary-font-size{font-size: 1.125rem; }
 
+/* banner section */
 .banner{
+    
     background: linear-gradient(black,rgb(31, 31, 31),black 100%);
     
+}
+
+/* nav bar custom */
+.navbar{
+    padding: 3.75rem 0px 0px;
+    justify-content: space-between;
+}
+.fitness{ 
+    font-size: 2.5rem;
+    transform: skew(-10deg);
+    font-weight: 800;
+
+}
+.home-a{
+    padding: .5rem 1.25rem;
+    font-weight: 600;
+    border-radius: 2.5rem;
+    border: none;
+    margin-left: 5px;
+    margin-right: 2rem;
+}
+.nav-a{
+    padding-top: .75rem;
+}
+.gap-4{margin-left: 2rem;
+margin-right: 2rem;}
+.menu{ border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    align-content: center;
 }
