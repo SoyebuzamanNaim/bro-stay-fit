@@ -1,13 +1,16 @@
+/* common codes */
+
 *{
     @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-    padding: 0%;
-    margin: 0%;
+    padding: 0px;
+    margin: 0px;
+    
     
 }
-/* common codes */
+
 .primary-text{color: rgb(230, 83, 60);}
 .secondary-text{color: white;}
-.primary-btn-bg{ background-color: rgb(230, 83, 60);}
+.primary-btn-bg{background-color: rgb(230, 83, 60);}
 .primary-btn{
     color: white;
     padding: 1rem 2.5rem;
@@ -21,10 +24,12 @@
 a{text-decoration: none;}
 .primary-font-size{font-size: 1.125rem; }
 
+
+
 /* banner section */
-.banner{
+.banner{ 
     
-    background: linear-gradient(black,rgb(31, 31, 31),black 100%);
+    background: linear-gradient(rgb(14, 14, 14),rgb(37, 37, 37),rgb(14, 14, 14) 100%);
     
 }
 
@@ -50,9 +55,42 @@ a{text-decoration: none;}
 .nav-a{
     padding-top: .75rem;
 }
-.gap-4{margin-left: 2rem;
-margin-right: 2rem;}
-.menu{ border: 1px solid rgba(255, 255, 255, 0.1);
+.gap-4{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+nav a img{width: 1.75rem;
+    height: 1.5rem;
+    padding-top: .75rem;
+    filter: invert(100%);
+}
+.menu-box{
+    display: none;
+}
+.menu{ 
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
     align-content: center;
+
+}
+
+
+
+/* responsive media */
+
+@media screen and (max-width:576px) {
+    /* nav bar for phone */
+.menu{
+    display: none;
+}
+.menu-box{
+    display: flex;
+}
+.section-padding{
+    padding: 1.5rem;
+}
+.navbar{
+    padding: 3.25rem 0px 0px;
+}
+
 }
