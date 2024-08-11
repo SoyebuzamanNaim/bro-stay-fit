@@ -28,7 +28,10 @@
 a{text-decoration: none;}
 .primary-font-size{font-size: 1.125rem; }
 .header-size{ font-size: 3rem;}
-
+.change-ur-habit-container p,
+.run-extra-mile p{
+    opacity: .5;   
+}
 
 
 
@@ -156,12 +159,7 @@ padding-bottom: 6.5rem;
 background-color: black;
 text-align: center;
 }
-.change-ur-habit-container p{
-    opacity: .5;
-    text-overflow: ellipsis;
-    
-    
-}
+
 
 .habit-container{
     display: grid;
@@ -179,7 +177,36 @@ text-align: center;
 .habit h2{
     margin-top: 2rem;
 }
-
+/* run an extra mile */
+.run-an-extra-mile-section{
+    background-color: black;
+}
+.run-extra-mile{
+    background-color: rgb(34, 33, 33);
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content: space-between;
+    border-radius: 1rem;
+    
+}
+.run-img img{
+    max-width: 23rem;
+    border-radius: 3rem;
+    padding: 2rem;
+    transform: translateY(1.75rem);
+    
+}
+.run-cnt{
+    padding: 2.5rem 3rem;
+}
+.run-cnt p{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.run-cnt button{
+    width: 14rem;
+    
+}
 
 
 /* responsive media */
@@ -220,5 +247,17 @@ text-align: center;
     padding-bottom: 4rem;
 
 }
-
+.run-extra-mile{
+    grid-template-columns: repeat(1,auto);
+    justify-content: center;
+   
+}
+.run-img img{
+   
+    padding: 3rem auto;
+    transform: translateY(0rem);
+}
+.joinbtn{
+    text-align: center;
+}
 }
