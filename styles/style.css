@@ -253,11 +253,21 @@ text-align: center;
    
 }
 .run-img img{
-   
-    padding: 3rem auto;
     transform: translateY(0rem);
+    padding: 0rem;
+    max-width: 80%;
 }
 .joinbtn{
     text-align: center;
 }
+.run-cnt button{
+    width: 100%;
+    
+}
+.run-img {
+    text-align: center;
+}
+
+
+
 }
