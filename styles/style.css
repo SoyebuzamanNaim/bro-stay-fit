@@ -1,18 +1,22 @@
 /* common codes */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miama');
 *{
-    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    font-family: "Inter", sans-serif;
     padding: 0px;
     margin: 0px;
-    
+    color: white;
     
 }
-
+.banner{ 
+    
+    background: linear-gradient(rgb(14, 14, 14),rgb(37, 37, 37),rgb(14, 14, 14) 100%);
+    
+}
 .primary-text{color: rgb(230, 83, 60);}
-.secondary-text{color: white;}
 .primary-btn-bg{background-color: rgb(230, 83, 60);}
 .primary-btn{
-    color: white;
+    
     padding: 1rem 2.5rem;
     font-size: 1.125rem;
     font-weight: 600;
@@ -23,15 +27,11 @@
 .flex-display{display: flex;}
 a{text-decoration: none;}
 .primary-font-size{font-size: 1.125rem; }
+.header-size{ font-size: 3rem;}
 
 
 
-/* banner section */
-.banner{ 
-    
-    background: linear-gradient(rgb(14, 14, 14),rgb(37, 37, 37),rgb(14, 14, 14) 100%);
-    
-}
+
 
 /* nav bar custom */
 .navbar{
@@ -102,7 +102,8 @@ nav a img{width: 1.75rem;
 }
 .banner-img{
     position: relative;
-    transform: translateY(.4rem);
+    transform: translateY(2rem);
+    max-width: 100%;
 }
 /* download button */
 
@@ -148,6 +149,36 @@ nav a img{width: 1.75rem;
     width: 2rem;
 
 }
+/* change habit section */
+.change-ur-habit-container{
+padding-top: 6.5rem;
+padding-bottom: 6.5rem;
+background-color: black;
+text-align: center;
+}
+.change-ur-habit-container p{
+    opacity: .5;
+    text-overflow: ellipsis;
+    
+    
+}
+
+.habit-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+   
+}
+.cng-p{
+    margin: 1rem 0px 3.5rem;
+}
+.habit img{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
+}
+.habit h2{
+    margin-top: 2rem;
+}
 
 
 
@@ -180,7 +211,14 @@ nav a img{width: 1.75rem;
 .info-box-2{
     transform: translate(-1rem,-23rem);
 }
+.habit-container{
+    grid-template-columns: repeat(1,1fr);
+    
+   
+}
+.habit p{
+    padding-bottom: 4rem;
 
-
+}
 
 }
