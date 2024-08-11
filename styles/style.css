@@ -189,12 +189,13 @@ text-align: center;
     border-radius: 1rem;
     
 }
+.run-img{
+    align-content: center;
+}
 .run-img img{
     max-width: 23rem;
     border-radius: 3rem;
-    padding: 2rem;
-    transform: translateY(1.75rem);
-    
+    margin-right: 3rem;
 }
 .run-cnt{
     padding: 2.5rem 3rem;
@@ -247,15 +248,18 @@ text-align: center;
     padding-bottom: 4rem;
 
 }
+/* run an extra mile */
 .run-extra-mile{
     grid-template-columns: repeat(1,auto);
     justify-content: center;
    
 }
 .run-img img{
-    transform: translateY(0rem);
-    padding: 0rem;
+    
+    margin: 0px 0px 40px;
     max-width: 80%;
+    border-radius: 5%;
+    
 }
 .joinbtn{
     text-align: center;
