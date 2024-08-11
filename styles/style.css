@@ -100,6 +100,10 @@ nav a img{width: 1.75rem;
     letter-spacing: 1px;
     
 }
+.banner-img{
+    position: relative;
+    transform: translateY(.4rem);
+}
 /* download button */
 
 .Downloadbtn{
@@ -110,6 +114,10 @@ nav a img{width: 1.75rem;
     border-radius: 2.5rem;
     border: 1px solid white;
     background-color: transparent;
+}
+.btn{
+    gap: 1rem;
+    margin: 0px,auto;
 }
 /* info boxes */
 .info-box-1 ,.info-box-2{
@@ -154,10 +162,25 @@ nav a img{width: 1.75rem;
     display: flex;
 }
 .section-padding{
-    padding: 1.5rem;
+    padding: 1.5rem 1.5rem 0px 1.5rem;
 }
 .navbar{
     padding: 3.25rem 0px 0px;
 }
+.banner-box{
+    flex-direction: column;
+}
+.banner-img{
+    transform: translateY(.2rem);
+}
+/* info boxes */
+.info-box-1{
+    transform: translate(12rem,-35rem);
+}
+.info-box-2{
+    transform: translate(-1rem,-23rem);
+}
+
+
 
 }
