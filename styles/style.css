@@ -1,5 +1,5 @@
 /* common codes */
-
+@import url('https://fonts.cdnfonts.com/css/miama');
 *{
     @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
     padding: 0px;
@@ -71,6 +71,73 @@ nav a img{width: 1.75rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
     align-content: center;
+
+}
+/* banner */
+.banner-box{
+    
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 29rem;
+    padding: 6rem 0px;
+    
+}
+.banner-title{
+    font-size: 5rem;  
+    line-height: 4.8rem;
+}
+
+.shape{
+    font-family: 'Miama', sans-serif;
+    font-weight:400;
+    font-size:7rem;
+    
+}
+.banner-para{
+    opacity: 0.7;
+    padding: 1.75rem 0rem;
+    letter-spacing: 1px;
+    
+}
+/* download button */
+
+.Downloadbtn{
+    
+    padding: 1rem 2.5rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 2.5rem;
+    border: 1px solid white;
+    background-color: transparent;
+}
+/* info boxes */
+.info-box-1 ,.info-box-2{
+    position:absolute;
+    border: 1px solid rgba(255, 255, 255, 0.267);
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: rgba(105, 105, 105, 0.192);
+    width: 9rem;
+    backdrop-filter: blur(1rem);
+}
+.info-box-1{
+    transform: translate(15rem,-24.5rem);
+}
+.info-box-2{
+    gap: 1rem;
+    align-items: center;
+    transform: translate(-5rem,-10rem);
+}
+.info-box-1 p,.info-box-2 p{
+    opacity: .7;
+}
+.info-box-1 h2{
+    font-size: 2.5rem;
+}
+
+.info-box-2 img{
+    width: 2rem;
 
 }
 
