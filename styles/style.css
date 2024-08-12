@@ -30,12 +30,30 @@ a{text-decoration: none;}
 .primary-font-size{font-size: 1.125rem; }
 .header-size{ font-size: 3rem;}
 .change-ur-habit-container p,
-.run-extra-mile p,.bmi-title p,.bmi-box p,.team-work{
+.run-extra-mile p,.bmi-title p,.bmi-box p,.team-work,.meet-team-header p{
     opacity: .5;   
 }
+/* background images */
 
 
-
+.trainer1{
+    background-image: url("../images/trainer1.png");
+}
+.trainer2{
+    background-image: url("../images/trainer2.png");
+}
+.trainer3{
+    background-image: url("../images/trainer3.png");
+}
+.trainer4{
+    background-image: url("../images/trainer4.png");
+}
+.trainer5{
+    background-image: url("../images/trainer5.png");
+}
+.trainer6{
+    background-image: url("../images/trainer6.png");
+}
 
 
 /* nav bar custom */
@@ -266,7 +284,31 @@ text-align: center;
     width: calc(100%);
 }
 /* meet our team */
+.meet-our-team-container{
+    background-color: black;
+}
 .team-name{font-size: 2rem;}
+.meet-team-header{
+    text-align: center;
+    padding: 6rem 0rem 4rem;
+}
+.team-box-container{
+    background-color: rgba(61, 61, 61, 0.5);
+    grid-template-columns: repeat(3,1fr);
+    padding: 2rem;
+    border-radius: 1rem;
+    height: 45rem;
+}
+.team-box-container div{
+    padding: 1rem;
+}
+.trainer1,.trainer2,.trainer3,.trainer4,.trainer5,.trainer6{
+    background-size:100% 100%;  
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 
 
 
