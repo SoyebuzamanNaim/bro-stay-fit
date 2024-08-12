@@ -30,7 +30,7 @@ a{text-decoration: none;}
 .primary-font-size{font-size: 1.125rem; }
 .header-size{ font-size: 3rem;}
 .change-ur-habit-container p,
-.run-extra-mile p,.bmi-title p,.bmi-box p{
+.run-extra-mile p,.bmi-title p,.bmi-box p,.team-work{
     opacity: .5;   
 }
 
@@ -265,6 +265,8 @@ text-align: center;
 .bmi-calc select{
     width: calc(100%);
 }
+/* meet our team */
+.team-name{font-size: 2rem;}
 
 
 
