@@ -37,6 +37,7 @@ a{text-decoration: none;}
 
 
 
+
 /* nav bar custom */
 .navbar{
     padding: 3.75rem 0px 0px;
@@ -206,6 +207,7 @@ text-align: center;
 }
 /* bmi sectio */
 .bmi-title{
+    padding: 6rem 0px 4rem;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -224,15 +226,46 @@ text-align: center;
 .bmi-calc-chart div{
     border: 1px solid rgba(61, 61, 61, 0.5);
 }
-.bmi-calc-chart-container h1{
+.bmi-calc-chart h4, .bmi-calc-chart p{
+    padding: 1rem;
+    
+}
+.bmi-calc-chart-container ,.bmi-calc-container{
     padding: 3.5rem 0rem;
 }
-.bmi-calc-chart{
+.bmi-calc{
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+.activity{
+    grid-column: span 2;
+}
+.calcbtn{
+   width: 80%;
+}
+.bmi-calc-chart-container h1{padding-bottom: 3rem;}
+
+.bmi-calc-container > p {padding: 1rem 0rem 2rem;}
+.bmi-calc input,.bmi-calc select{
+    background-color: rgba(122, 122, 122, 0.208);
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1rem;
+    width: calc(100% - 2rem);
+    color: rgba(255, 255, 255, 0.5);
     
 }
-.bmi-calc-chart{
-    
+.bmi-calc input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
 }
+.bmi-calc select:hover,.bmi-calc input:hover{
+    color: rgb(255, 255, 255);
+}
+.bmi-calc select{
+    width: calc(100%);
+}
+
 
 
 
@@ -299,7 +332,10 @@ text-align: center;
 .run-img {
     text-align: center;
 }
-
+/* bmi box */
+.bmi-box{
+    grid-template-columns: 1fr;
+}
 
 
 }

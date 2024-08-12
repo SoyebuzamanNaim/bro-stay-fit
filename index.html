@@ -134,9 +134,42 @@
             <div class="bmi-calc-container">
                 <h1>Calculate your BMI</h1>
                 <p>BMI can indicate potential health risks associated <br>with being underweight, overweight, or obese.</p>
-                <div class="bmi-calc grid-display">
-
-                </div>
+                <form class="bmi-calc grid-display">
+                    <div>
+                        <input type="number" name="Height/cm" id="Height/cm" placeholder="Height/cm">
+                    </div>
+                    <div>
+                        <input type="number" name="Weight/kg" id="Weight/kg" placeholder="Weight/kg">
+                    </div>
+                    <div>
+                        <input type="number" name="Age" id="Age" placeholder="Age">
+                    </div>
+                    <div>
+                        <select name="sex" id="sex">
+                            <option value="" disabled selected>
+                                 Sex
+                            </option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="activity">
+                        <select name="activity" id="activity">
+                            <option value="" disabled selected>Select an activity factor</option>
+                           <option value="Sedentary">Sedentary</option>
+                           <option value="Lightly Active">Lightly Active</option>
+                           <option value="Moderately Active">Moderately Active</option>
+                           <option value="Very Active">Very Active</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <button class="primary-btn calcbtn primary-btn-bg ">Calculate</button>
+                    </div>
+                </form>
+                
+                
             </div>
         </div>
     </div>
