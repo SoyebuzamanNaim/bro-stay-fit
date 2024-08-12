@@ -30,7 +30,7 @@ a{text-decoration: none;}
 .primary-font-size{font-size: 1.125rem; }
 .header-size{ font-size: 3rem;}
 .change-ur-habit-container p,
-.run-extra-mile p,.bmi-title p,.bmi-box p,.team-work,.meet-team-header p{
+.run-extra-mile p,.bmi-title p,.bmi-box p,.team-work,.meet-team-header p,footer a,footer p,small{
     opacity: .5;   
 }
 
@@ -162,7 +162,6 @@ text-align: center;
 
 
 .habit-container{
-    display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 1rem;
    
@@ -266,6 +265,7 @@ text-align: center;
 /* meet our team */
 .meet-our-team-container{
     background-color: black;
+    padding-bottom: 6rem;
 }
 .team-name{font-size: 2rem;}
 .meet-team-header{
@@ -315,8 +315,47 @@ text-align: center;
     background-image: url("../images/trainer6.png");
 }
 
+/* footer */
+footer {
+    background-color: rgb(33, 33, 33);
+}
+.fit-foot h1{
+    font-size: 4.5rem;
+    transform: skew(-10deg);
+    font-weight: 800;
+}
+.footer-parents{
+    padding: 4rem 0rem;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
 
+.get-started{
+    display: flex;
+    flex-direction: column;
+}
 
+.get-started > a{
+    padding-bottom: 1.75rem;
+}
+.get-started div a{
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+    opacity: 1;
+}
+.fit-foot p{
+    width: 17vw;
+    padding: 2.5rem 0rem;
+}
+.fit-a,.serve-a{
+    padding-top: 3rem;
+}
+.small-foot{
+    border-top: 1px  solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 1.5rem 0rem;
+}
 
 
 
@@ -384,7 +423,14 @@ text-align: center;
 .bmi-box{
     grid-template-columns: 1fr;
 }
+.bmi-title{
+    padding-top: 4rem;
+    padding-bottom: 2.5rem;
+}
 /* meet our team */
+.meet-our-team-container{
+    padding-bottom: 4rem;
+}
 .team-box-container{
     grid-template-columns: 1fr;
 }
@@ -393,8 +439,14 @@ text-align: center;
     height: 40vw;
 }
 
-
-
-
+/* footer */
+.footer-parents{
+    padding: 4rem 0rem;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+.fit-foot p{
+    width: 70vw;
+}
 
 }
