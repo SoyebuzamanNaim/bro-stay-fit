@@ -188,6 +188,9 @@ text-align: center;
 .habit h2{
     margin-top: 2rem;
 }
+.habit-center{
+    max-width: 100%;
+}
 /* run an extra mile */
 
 .run-extra-mile{
@@ -378,15 +381,13 @@ footer {
 }
 .offer-box{
     grid-template-columns: repeat(4,1fr);
-    gap: 1rem;
-    padding: 1rem;
+    padding: 1%;
     text-align: center;
     
 }
 .offer-box div {
     background-color:rgba(129, 123, 123, 0.3);
     border-radius: 1rem;
-    padding: 1rem;
     margin: .5rem;
     
 }
@@ -397,12 +398,17 @@ footer {
     
     
 }
-.offer-box-card img{
-    width: 100%;
+.offer-box-card-img{
+    filter: invert(.5);
+    
 }
 .offer-box div a:hover{
     color: white;
     font-size: 1.2rem;
+}
+.offer-box-card-img:hover{
+    filter: invert(1);
+    
 }
 
 
@@ -434,10 +440,10 @@ footer {
 /* info boxes */
 .info-box-1{
     
-    transform: translate(10.5rem,-35rem) scale(.8);
+    transform: translate(15rem,-35rem); 
 }
 .info-box-2{
-    transform: translate(-1rem,-23rem)  scale(.8);
+    transform: translate(1rem,-19rem);
 }
 .habit-container{
     grid-template-columns: repeat(1,1fr);
@@ -483,6 +489,7 @@ footer {
 .offer-box div{
     padding: .4rem;
 }
+
 /* meet our team */
 .meet-our-team-container{
     padding-bottom: 4rem;
