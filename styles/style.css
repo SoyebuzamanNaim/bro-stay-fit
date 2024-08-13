@@ -87,7 +87,7 @@ nav a img{width: 1.75rem;
     justify-content: space-between;
 }
 .banner-content{
-    max-width: 29rem;
+    width: 100%;
     padding: 6rem 0px;
     z-index: 4;
 }
@@ -109,10 +109,13 @@ nav a img{width: 1.75rem;
     
 }
 .banner-img{
-    position: relative;
-    transform: translateY(2rem);
-    max-width: 100%;
-    z-index: 3;
+    flex-direction: column;
+    justify-content: end;
+    transform: translateY(.2rem);
+}
+.gym-bro img{
+    width: 100%;
+    
     
 }
 /* download button */
@@ -135,24 +138,26 @@ nav a img{width: 1.75rem;
     position:absolute;
     border: 1px solid rgba(255, 255, 255, 0.267);
     border-radius: 1rem;
-    padding: 1rem;
+    padding: .75rem;
     background-color: rgba(105, 105, 105, 0.192);
-    width: 9rem;
-    backdrop-filter: blur(1rem);
+    backdrop-filter: blur(.5rem);
+    width: 7rem;
 }
 .info-box-1{
-    transform: translate(15rem,-24.5rem);
+   
+   transform: translate(12rem, -25rem);
 }
 .info-box-2{
     gap: 1rem;
     align-items: center;
-    transform: translate(-5rem,-10rem);
+    transform: translate(-5rem, -11rem);
+    
 }
 .info-box-1 p,.info-box-2 p{
     opacity: .7;
 }
 .info-box-1 h2{
-    font-size: 2.5rem;
+    font-size: 1.75rem;
 }
 
 .info-box-2 img{
