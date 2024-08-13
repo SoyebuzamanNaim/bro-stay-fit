@@ -8,6 +8,10 @@
     color: white;
     
 }
+body{
+    background-color: black;
+
+}
 .banner{ 
     
     background: linear-gradient(rgb(14, 14, 14),rgb(37, 37, 37),rgb(14, 14, 14) 100%);
@@ -23,7 +27,8 @@
     border-radius: 2.5rem;
     border: none;
 }
-.section-padding{padding: 0px 11.5rem;}
+.section-padding{padding: 0px 11.5rem;
+}
 .flex-display{display: flex;}
 .grid-display{display: grid;}
 a{text-decoration: none;}
@@ -84,7 +89,7 @@ nav a img{width: 1.75rem;
 .banner-content{
     max-width: 29rem;
     padding: 6rem 0px;
-    
+    z-index: 4;
 }
 .banner-title{
     font-size: 5rem;  
@@ -107,6 +112,8 @@ nav a img{width: 1.75rem;
     position: relative;
     transform: translateY(2rem);
     max-width: 100%;
+    z-index: 3;
+    
 }
 /* download button */
 
@@ -156,7 +163,7 @@ nav a img{width: 1.75rem;
 .change-ur-habit-container{
 padding-top: 6.5rem;
 padding-bottom: 6.5rem;
-background-color: black;
+
 text-align: center;
 }
 
@@ -177,9 +184,7 @@ text-align: center;
     margin-top: 2rem;
 }
 /* run an extra mile */
-.run-an-extra-mile-section{
-    background-color: black;
-}
+
 .run-extra-mile{
     background-color: rgb(33, 33, 33);
     grid-template-columns: repeat(2,1fr);
@@ -205,7 +210,6 @@ text-align: center;
 /* bmi sectio */
 .bmi-title{
     padding: 6rem 0px 4rem;
-    background-color: black;
     display: flex;
     justify-content: center;
 }
@@ -264,7 +268,6 @@ text-align: center;
 }
 /* meet our team */
 .meet-our-team-container{
-    background-color: black;
     padding-bottom: 6rem;
 }
 .team-name{font-size: 2rem;}
@@ -358,7 +361,6 @@ footer {
 }
 /* special section expolore-offer-container */
 .expolore-offer-container{
-    background-color: black;
     padding-top: 6rem;
 }
 .explore-offer{
@@ -413,6 +415,7 @@ footer {
 }
 .section-padding{
     padding: 1.5rem 1.5rem 0px 1.5rem;
+    width: 100%;
 }
 .navbar{
     padding: 3.25rem 0px 0px;
