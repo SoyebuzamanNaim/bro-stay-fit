@@ -21,11 +21,12 @@ body{
 .primary-btn-bg{background-color: rgb(230, 83, 60);}
 .primary-btn{
     
-    padding: 1rem 2.5rem;
+    padding: 1rem 2rem;
     font-size: 1.125rem;
     font-weight: 600;
     border-radius: 2.5rem;
     border: none;
+    
 }
 .section-padding{padding: 0px 11.5rem;
 }
@@ -121,8 +122,7 @@ nav a img{width: 1.75rem;
 /* download button */
 
 .Downloadbtn{
-    
-    padding: 1rem 2.5rem;
+    padding: 1rem 2rem;
     font-size: 1.125rem;
     font-weight: 600;
     border-radius: 2.5rem;
@@ -131,7 +131,7 @@ nav a img{width: 1.75rem;
 }
 .btn{
     gap: 1rem;
-    margin: 0px,auto;
+   
 }
 /* info boxes */
 .info-box-1 ,.info-box-2{
