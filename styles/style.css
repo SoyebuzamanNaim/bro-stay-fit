@@ -30,7 +30,7 @@ a{text-decoration: none;}
 .primary-font-size{font-size: 1.125rem; }
 .header-size{ font-size: 3rem;}
 .change-ur-habit-container p,
-.run-extra-mile p,.bmi-title p,.bmi-box p,.team-work,.meet-team-header p,footer a,footer p,small{
+.run-extra-mile p,.bmi-title p,.bmi-box p,.team-work,.meet-team-header p,footer a,footer p,small,.explore-title p{
     opacity: .5;   
 }
 
@@ -356,11 +356,46 @@ footer {
     text-align: center;
     padding: 1.5rem 0rem;
 }
-
-
-
-
-
+/* special section expolore-offer-container */
+.expolore-offer-container{
+    background-color: black;
+    padding-top: 6rem;
+}
+.explore-offer{
+    background-color: rgb(33, 33, 33, .7);
+    border-radius: 1rem;
+}
+.explore-title{
+    text-align: center;
+    padding: 2rem 0rem 1rem;
+}
+.offer-box{
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    padding: 1rem;
+    text-align: center;
+    
+}
+.offer-box div {
+    background-color:rgba(129, 123, 123, 0.3);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: .5rem;
+}
+.offer-box-card div a{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:rgb(192, 192, 192);
+    
+    
+}
+.offer-box-card img{
+    width: 50%;
+}
+.offer-box div a:hover{
+    color: white;
+    font-size: 1.25rem;
+}
 
 
 
@@ -427,6 +462,9 @@ footer {
     padding-top: 4rem;
     padding-bottom: 2.5rem;
 }
+/* our club */
+.offer-box{
+    grid-template-columns: 1fr;}
 /* meet our team */
 .meet-our-team-container{
     padding-bottom: 4rem;
