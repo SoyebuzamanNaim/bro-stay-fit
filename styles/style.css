@@ -425,10 +425,11 @@ footer {
 }
 /* info boxes */
 .info-box-1{
-    transform: translate(12rem,-35rem);
+    
+    transform: translate(10.5rem,-35rem) scale(.8);
 }
 .info-box-2{
-    transform: translate(-1rem,-23rem);
+    transform: translate(-1rem,-23rem)  scale(.8);
 }
 .habit-container{
     grid-template-columns: repeat(1,1fr);
