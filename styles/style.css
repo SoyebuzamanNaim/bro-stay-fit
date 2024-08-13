@@ -381,20 +381,21 @@ footer {
     border-radius: 1rem;
     padding: 1rem;
     margin: .5rem;
+    
 }
 .offer-box-card div a{
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color:rgb(192, 192, 192);
     
     
 }
 .offer-box-card img{
-    width: 50%;
+    width: 100%;
 }
 .offer-box div a:hover{
     color: white;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
 }
 
 
@@ -463,8 +464,16 @@ footer {
     padding-bottom: 2.5rem;
 }
 /* our club */
+.expolore-offer-container{
+    padding-top: 6rem;
+}
 .offer-box{
-    grid-template-columns: 1fr;}
+    padding: 0rem;
+    gap: 0rem;
+    grid-template-columns: 1fr 1fr;}
+.offer-box div{
+    padding: .4rem;
+}
 /* meet our team */
 .meet-our-team-container{
     padding-bottom: 4rem;
