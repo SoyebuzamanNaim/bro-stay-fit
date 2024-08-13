@@ -184,12 +184,18 @@ text-align: center;
 .habit img{
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 100%;
+    width: 80%;
 }
 .habit h2{
     margin-top: 2rem;
 }
-.habit-center{
-    max-width: 100%;
+.habit p{
+    height: 2.5rem;
+    overflow-y:clip;
+}
+.habit p:hover{
+    
+    overflow-y: scroll;
 }
 /* run an extra mile */
 
@@ -215,7 +221,7 @@ text-align: center;
     width: 14rem;
     
 }
-/* bmi sectio */
+/* bmi section */
 .bmi-title{
     padding: 6rem 0px 4rem;
     display: flex;
@@ -223,7 +229,7 @@ text-align: center;
 }
 .bmi-box{
     background-color: rgb(33, 33, 33);
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 2fr 2.5fr;
 }
 
 .bmi-calc-chart{
@@ -289,8 +295,6 @@ text-align: center;
     gap: 2rem;
     padding: 2rem;
     border-radius: 1rem;
-    
-    
 }
 .team-box-container div{
     
@@ -368,7 +372,7 @@ footer {
     padding: 1.5rem 0rem;
 }
 /* special section expolore-offer-container */
-.expolore-offer-container{
+.explore-offer-container{
     padding-top: 6rem;
 }
 .explore-offer{
@@ -460,9 +464,7 @@ footer {
     justify-content: center;
    
 }
-.joinbtn{
-    text-align: center;
-}
+
 .run-cnt button{
     width: 100%;
     
@@ -479,9 +481,7 @@ footer {
     padding-bottom: 2.5rem;
 }
 /* our club */
-.expolore-offer-container{
-    padding-top: 6rem;
-}
+
 .offer-box{
     padding: 0rem;
     gap: 0rem;
